@@ -14,6 +14,8 @@ def lshift(text : str, times : int):
 def encrypt(text : str, key : str):
     if not text.isalpha() or not key.isalpha():
         raise TypeError("key or text should only be letters")
+    text = text.lower()
+    key = key.lower()
     rotmax = len(key)
     rot = -1
     abc2 = ""
@@ -46,6 +48,8 @@ def encrypt(text : str, key : str):
 def decrypt(text : str, key : str):
     if not text.isalpha() or not key.isalpha():
         raise TypeError("key or text should only be letters")
+    text = text.lower()
+    key = key.lower()
     rotmax = len(key)
     rot = -1
     abc2 = ""
