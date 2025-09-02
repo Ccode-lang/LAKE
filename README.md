@@ -1,7 +1,7 @@
 # LAKE `Letter Alphabet Key Encryption`  
-Symetric encryption for letters.
+Symmetric encryption for letters.
 ## Howto
-To import use `import LAKE` when the LAKE.py file is in your scripts directory.  
+To import, use `import LAKE` when the LAKE.py file is in your scripts directory.  
 To encrypt use `LAKE.encrypt(<plaintext>, <letterkey>)`, example:  
 ```python
 import LAKE
